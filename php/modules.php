@@ -1,5 +1,5 @@
 <?php
-require("/var/www/vhosts/testing.cheapboost.me/httpdocs/AppSpot/php/functions.php");
+require("[login functions]");
 if (loggedIn()) {
 	$userInfo = userInfo();
 } else {
