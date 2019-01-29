@@ -5,7 +5,7 @@ if (loggedIn()) {
 } else {
 	denyAccess();
 }
-$data_dir = "/var/www/vhosts/testing.cheapboost.me/httpdocs/AppSpot/app/pastify/data/";
+$data_dir = "[data location]";
 
 
 if ($_POST['function'] == "newPost") { post::newPost($_POST['title'], $_POST['data'], $_POST['key']); }  // Add a post
